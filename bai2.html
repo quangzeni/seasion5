@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 800px;
+            height: 400px;
+        }
+        .left{
+            width: 40%;
+            height: 100%;
+            background-color: ;
+            float: left;
+            padding: 20px;
+        }
+        .left>h2{
+            font-weight: 100;
+            margin-bottom: 30px;
+        }
+        .left_h2::after{
+            display: block;
+            content:"";
+            height: 1px;
+            width: 40px;
+            background-color: #DFC995;
+            border-bottom: 1px solid #DFC995;
+            margin-top: 7px; ;
+        }
+        .left>h3{
+            font-weight: 500;
+        }
+        .right{
+            width: 60%;
+            height: 100%;
+            float: left;
+            padding: 80px 0px 0px 10px;
+        }
+        .contact{
+            color: #C5C6C8;
+            padding: 10px;
+        }
+        .info{
+            width: 90%;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        .info>i{
+            float: left;
+            margin:0px 10px 10px 0px;
+            width: 10%;
+        }
+        .right>h3{
+            font-weight:500;
+            margin-bottom: 20px;
+        }
+        .right_content{
+            width: 100%;
+        }
+        input,textarea{
+            border: 1px solid #C5C6C8;
+            width: 100%;
+            margin: 5px 0px 5px 0px;
+        }
+        :placeholder-shown{
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+        button{
+            padding: 7px 15px;
+            background-color: #0DB8B3;
+            border-radius: 2px;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <h2 class="left_h2">CONTACT US</h2>
+            <h3>Contact Info</h3>
+            <div class="contact">
+                <div class="info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>2112 aihahushduasdhh</p>
+                </div>
+                <div  class="info">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>insah@gmail.com</p>
+                </div>
+                <div class="info"> 
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+22831y381212</p>
+                </div>
+            </div>
+        </div>
+        <form class="right">
+            <h3>Have any Query or book an poiiemnt</h3>
+            <div class="right_content">
+                <input type="text" name="name" id="name" placeholder="Your Name"><br>
+                <input type="text" name="mail" id="mail" placeholder="Your Email"><br>
+                <input type="text" name="Subject" id="Subject" placeholder="Subject"><br>
+                <textarea name="mess" id="mess" cols="30" rows="5" placeholder="Message"></textarea><br>
+                <button>Send Messenger</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
