@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            width: 900px;
+            height: 600px;
+            background-color: #F2F3F5;
+            padding: 30px;
+        }
+        input, select{
+            width: 45%;
+            padding: 10px 20px;
+            margin: 0px 30px 30px 0px;
+        }
+        textarea{
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="right">
+            <input type="text" name="name" id="name" placeholder="First Name">
+            <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+            <input type="text" name="mail" id="mail" placeholder="Email">
+            <input type="text" name="phone" id="phone" placeholder="Your Phone"><br>
+            <select name="country" id="country">
+                <option value="country">Country</option>
+            </select>
+            <select name="course" id="course">
+                <option value="course">Select Course</option>
+            </select><br>
+            <textarea name="content" id="content" cols="30" rows="6"></textarea>
+
+        </div>
+        <!-- <div class="left"></div>
+        <div class="under"></div> -->
+        <button>Submit</button>
+    </main>
+</body>
+</html>
